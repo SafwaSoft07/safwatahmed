@@ -616,6 +616,55 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Portfolio App Cards
+--------------------------------------------------------------*/
+.portfolio .app-card {
+  border-radius: 6px 6px 0 0;
+}
+
+.portfolio .app-caption {
+  background: #fff;
+  padding: 15px 18px 18px 18px;
+  border-radius: 0 0 6px 6px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.07);
+}
+
+.portfolio .app-caption h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.portfolio .app-caption h4,
+.portfolio .app-caption h4 a {
+  color: #272829;
+}
+
+.portfolio .app-caption p {
+  font-size: 14px;
+  color: #6f7180;
+  margin-bottom: 10px;
+  min-height: 42px;
+}
+
+.portfolio .app-caption a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #149ddd;
+}
+
+.portfolio .app-caption a:hover {
+  color: #37b3ed;
+}
+
+.portfolio .app-caption i {
+  font-size: 16px;
+}
+
+/*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
